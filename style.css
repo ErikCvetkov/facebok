@@ -333,3 +333,92 @@ html,body{
   height: 200px;
   background-color: white;
 }
+
+.posti_verh{
+  position: relative;
+  border: solid 1px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom: none;
+  margin-top: 10px;
+  height: 70px;
+  background-color: white;
+  border-color: #CCCCCC;
+}
+
+.dla_postov{
+  height: 40px;
+  margin: 15px;
+
+}
+
+.posti_verh p{
+  position: absolute;
+  top: 20px;
+  left:65px;
+  font-weight: bold;
+  color: darkblue;
+}
+
+.tocki{
+  position: absolute;
+  right: 10px;
+  top:20px;
+  height: 15px;
+  filter: invert(100%);
+}
+
+.posti_nizhe{
+  height: 50px;
+  background-color:white;
+  border: 1px solid;
+  border-color: #CCCCCC;
+  border-top: none;
+  border-bottom: none;
+}
+
+.posti_nizhe p{
+  padding:10px;
+}
+
+.posti_seredina{
+  border: 1px solid;
+  border-color: #CCCCCC;
+  background-color: white;
+  border-bottom: none;
+}
+
+.posti_niz{
+  display: flex;
+  height: 40px;
+  background-color: white;
+  border:1px solid;
+  border-top:none;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: #CCCCCC;
+  border-top: none;
+}
+
+#likes {
+}
+
+.likes_photo{
+  height: 15px;
+}
+
+.cont_likes{
+  display: flex;
+  flex:1;
+  margin: 3px;
+  height: 25px;
+  border-radius: 10px;
+  padding-top: 5px;
+  align-items: center;
+  justify-content: center;
+  color:grey;
+}
+
+.cont_likes:hover{
+  background-color: #CCCCCC;
+}
