@@ -328,12 +328,6 @@ html,body{
   margin-right: 10px;
 }
 
-#ctoto{
-  width: 300px;
-  height: 200px;
-  background-color: white;
-}
-
 .posti_verh{
   position: relative;
   border: solid 1px;
@@ -421,4 +415,99 @@ html,body{
 
 .cont_likes:hover{
   background-color: #CCCCCC;
+}
+
+#ctoto{
+  display: flex;
+  width: 300px;
+  height: 35px;
+  border:solid 1px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: white;
+  border-color:#CCCCCC;
+  align-items: center;
+  padding: 0px 5px 0px 5px;
+}
+
+#ctoto p{
+  color:#444950;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+#sss{
+  flex:1;
+  text-align: right;
+}
+
+#sss img{
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  width: 15px;
+}
+
+#pravo_nizhe{
+  display: flex;
+  background-color: white;
+  border: 1px solid;
+  border-color: #CCCCCC;
+  border-top: none;
+  border-bottom:none;
+  width: 310px;
+  height: 94px;
+}
+
+#pravo_nizhe_icon{
+  width: 70px;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+#stranica{
+  display: flex;
+  margin: 10px;
+  padding-bottom: 10px;
+  flex-direction: column;
+}
+
+.znaki_str{
+  width: 20px;
+}
+
+.ll{
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  color:  #90949c;
+  margin-right: 5px;
+}
+
+.ll:first-child{
+  color:#385898;
+  font-weight: 600;
+  font-size:15px;
+}
+
+#knopki{
+  height: 79px;
+  background-color: white;
+  width: 310px;
+  border:1px solid;
+  border-color:  #CCCCCC;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: #90949c;
+}
+
+.ooo{
+  width: 20px;
+}
+
+#knopki li{
+  float:left;
+  width: 70px;
+  text-align: center;
+  overflow:hidden;
 }
